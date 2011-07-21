@@ -17,11 +17,14 @@ Optional files:
 Basic use:
 
 JavaScript:
+
 	$(document).ready(function() {
 		// Applies the form validator on all forms in the document
 		$('form').FormValidator();
 	});
+	
 Html:
+
 	<form action="serve.php" method="post">
 		<div><label for="name">Name:</label> <input type="text" name="name"/></div>
 		<!--Put the class 'required' on fields which need to be filled in-->
