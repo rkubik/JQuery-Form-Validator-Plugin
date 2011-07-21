@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<title>Dollar Photography</title>
+	<style type="text/css">
+		body {
+			font-family:arial;
+			font-size:12px;
+		}
+		.content-box {
+			width:350px;
+			margin:50px auto;
+		}
+		table {
+			width:100%;
+			border-spacing:0;
+		}
+		table td {
+			padding:5px;
+		}
+	</style>
+	<script type="text/javascript" src="jquery.js"></script>
+	<script type="text/javascript" src="jquery.ui.js"></script>
+	<script type="text/javascript" src="fv.jquery.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('form').FormValidator({notification:'effect'});
+		});
+	</script>
+</head>
+<body>
+	<div class="content-box">
+		<form action="" method="post">
+			<table>
+				<tr><td>First Name:</td><td><input type="text" name="firstname"/></td></tr>
+				<tr><td>Last Name:</td><td><input type="text" name="lastname"/></td></tr>
+				<tr><td>Email:</td><td><input class="required" type="text" name="email"/></td></tr>
+				<tr><td>Password:</td><td><input class="required" type="password" name="password"/></td></tr>
+				<tr><td>Gender:</td><td>Male <input type="radio" name="male"/> Female <input type="radio" name="female"/></td></tr>
+				<tr><td>Over 18?:</td><td>Yes <input type="checkbox" name="age"/></td></tr>
+				<tr><td>Industry:</td><td>
+					<select class="required" name="industry">
+						<option value="">Information Technology</option>
+						<option value="">Marketing</option>
+						<option value="">Economics</option>
+						<option value="">Architecture</option>
+					</select>
+				</td></tr>
+				<tr><td>Topic:</td><td>
+					<select class="required" multiple="multiple" name="topic">
+						<option value="">Topic 1</option>
+						<option value="">Topic 2</option>
+						<option value="">Topic 3</option>
+						<option value="">Topic 4</option>
+					</select>
+				</td></tr>
+				<tr><td>Comments:</td><td><textarea class="required" rows="3" cols="20"></textarea></td></tr>
+				<tr><td>&nbsp;</td><td><input type="submit" value="Submit"/></td></tr>
+			</table>
+		</form>
+	</div>
+</body>
+</html>
