@@ -30,3 +30,17 @@ Html:
 		<!--Put the class 'required' on fields which need to be filled in-->
 		<div><label for="email">Email:</label> <input class="required" type="text" name="email"/></div>
 	</form>
+
+Options
+---
+* notification `String` Default: 'effect'
+* effect `String` Default: 'shake'
+* effectDuration `Int` Default: 300
+* effectLoop `Int` Default: 1
+* iconPath `String` Default: 'images/error.png'
+* iconDuration `Int` Default: 1000
+* minText `Int` Default: 1
+* minPassword `Int` Default: 1
+* selectOneIndex `Int` Default: -1
+* minSelectMultiple `Int` Default: 1
+* minTextarea `Int` Default: 1
