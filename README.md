@@ -35,66 +35,66 @@ Options
 ---
 * notification `String` Default: 'effect'
 
-    *Description*: If a form element has not been filled out properly alert using one of the following notification options.
+    **Description**: If a form element has not been filled out properly alert using one of the following notification options.
 	
-	Options: ['effect','icons']
+	**Options**: ['effect','icons']
 
 * effect `String` Default: 'shake'
 
-    Description: If notification has been set to 'effect', choose which effect your would like to trigger.
+    **Description**: If notification has been set to 'effect', choose which effect your would like to trigger.
 	
-	Options: ['blind', 'bounce', 'clip', 'drop', 'explode', 'fold', 'highlight', 'puff', 'pulsate', 'scale', 'shake', 'size', 'slide', 'transfer']
+	**Options**: ['blind', 'bounce', 'clip', 'drop', 'explode', 'fold', 'highlight', 'puff', 'pulsate', 'scale', 'shake', 'size', 'slide', 'transfer']
     
 * effectDuration `Int` Default: 300
 
-    Description: How long the effect lasts.
+    **Description**: How long the effect lasts.
 	
-	Options: Positive integer
+	**Options**: Positive integer
 
 * effectLoop `Int` Default: 1
 
-    Description: How many times to loop the effect.
+    **Description**: How many times to loop the effect.
 	
-	Options: Positive integer
+	**Options**: Positive integer
 
 * iconPath `String` Default: 'images/error.png'
 
-    Description: If notification has been set to 'icons', the path to look for the icon.
+    **Description**: If notification has been set to 'icons', the path to look for the icon.
 	
-	Options: Valid file path
+	**Options**: Valid file path
 
 * iconDuration `Int` Default: 1000
 
-    Description: How long to fade in the icon.
+    **Description**: How long to fade in the icon.
 	
-	Options: Positive integer
+	**Options**: Positive integer
 
 * minText `Int` Default: 1
 
-    Description: Minimum length of an input textbox.
+    **Description**: Minimum length of an input textbox.
 	
-	Options: Positive integer
+	**Options**: Positive integer
 
 * minPassword `Int` Default: 1
 
-    Description: Minimum length of an input password.
+    **Description**: Minimum length of an input password.
 	
-	Options: Positive integer
+	**Options**: Positive integer
 
 * selectOneIndex `Int` Default: -1
 
-    Description: Invalid dropdown option. Example: If you have a default option '-- Select One --' change this to 0
+    **Description**: Invalid dropdown option. Example: If you have a default option '-- Select One --' change this to 0
 	
-	Options: Integer
+	**Options**: Integer
 
 * minSelectMultiple `Int` Default: 1
 
-    Description: Minimum number of option to select from a select-multiple element.
+    **Description**: Minimum number of option to select from a select-multiple element.
 	
-	Options: Positive integer
+	**Options**: Positive integer
 
 * minTextarea `Int` Default: 1
 
-    Description: Minimum length of a textarea box.
+    **Description**: Minimum length of a textarea box.
 	
-	Options: Positive integer
+	**Options**: Positive integer
