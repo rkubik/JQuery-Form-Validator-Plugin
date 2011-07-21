@@ -4,6 +4,9 @@
 	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
 	<title>JQuery Form Validator Plugin</title>
 	<style type="text/css">
+		/*
+		 * Non-plugin CSS
+		 */
 		body {
 			font-family:arial;
 			font-size:12px;
@@ -19,13 +22,17 @@
 		table td {
 			padding:5px;
 		}
+		/*
+		 * Plugin CSS
+		 */
+		.fv-icon { margin-left:5px; display:none; }
 	</style>
-	<script type="text/javascript" src="jquery.js"></script>
-	<script type="text/javascript" src="jquery.ui.js"></script>
-	<script type="text/javascript" src="fv.jquery.js"></script>
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/jquery.ui.js"></script>
+	<script type="text/javascript" src="js/fv.jquery.js"></script>
 	<script type="text/javascript">
 		$(document).ready(function() {
-			$('form').FormValidator({notification:'effect'});
+			$('form').FormValidator({notification:'effect',effect:'pulsate',effectLoop:3});
 		});
 	</script>
 </head>

@@ -27,6 +27,7 @@
 				$(img).attr('align', 'middle');
 				$(img).addClass('fv-icon');
 				$(e).after($(img));
+				$(img).fadeIn(o.iconDuration);
 				return;
 		}
 	}
@@ -102,13 +103,14 @@
             // Set the default values, use comma to separate the settings, example: 
             var defaults = {
 				// notification : effect, icon
-				notification : 'effect',
+				notification: 'effect',
 				// effect options
-                effect : 'shake',
-                effectDuration : 300,
-				effectLoop : 1,
+                effect: 'shake',
+                effectDuration: 300,
+				effectLoop: 1,
 				// icon
-				iconPath : 'error.png',
+				iconPath: 'images/error.png',
+				iconDuration: 1000,
 				// element restrictions
 				minText: 1,
 				minPassword: 1,
